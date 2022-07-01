@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+}
+.container{
+   background-color: gray;
+   width:100vw;
+   height: 129vh;
+}
+.div1{
+    border: 10px solid gray;
+    background-color: rgb(222, 191, 133);
+    font-family: 'Raleway', sans-serif;
+    width:100vw;
+    height: 70vh;
+ }
+ .div1 h1{
+   color: rgb(14, 14, 14)   ;
+   position: absolute;
+   top: 50px;
+   left: 575px;
+ }
+ .div1 img{
+  width:100vw;
+  height: 70vh;
+  border-radius: 100px
+ }
+ .div2{
+    border: 10px solid gray;
+    background-color: rgb(238, 109, 238);
+    font-family: 'Raleway', sans-serif;
+    width:100vw;
+    height: 50vh;
+    text-align: center;
+ }
+ .div2 img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 42vh;
+   border-radius: 10px;
+   outline-style: outset;
+   outline-width: 5%;
+   outline-color: rgb(210, 84, 210);
+   outline-offset: 0.07cm;
+
+ }
+ .div3{
+    border: 10px solid gray;
+    background-color: rgb(88, 123, 36);
+    font-family: 'Raleway', sans-serif;
+    width:100vw;
+    height: 41.5vh;
+    text-align: center;
+ }
+ .div3 img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 31vh;
+   border-radius: 10px
+ }
+ .div4{
+    border: 10px solid gray;
+    background-color: rgb(185, 185, 8);
+    font-family: 'Raleway', sans-serif;
+    width:100vw;
+    height: 36vh;
+    text-align: center;
+ }
+ .div4 img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 29vh;
+   border-radius: 10px;
+ }
